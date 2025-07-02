@@ -10,7 +10,7 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <xseries.version>13.3.2</xseries.version>    
+        <xseries.version>13.3.0</xseries.version>    
     </properties>
 
     <repositories>
@@ -81,7 +81,7 @@
         <dependency>
             <groupId>com.github.cryptomorin</groupId>
             <artifactId>XSeries</artifactId>
-            <version>v13.3.2</version>
+            <version>v13.3.0</version>
         </dependency>
 
         <dependency>
