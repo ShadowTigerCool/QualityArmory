@@ -990,7 +990,7 @@ public class QAListener implements Listener {
 
 	@EventHandler
 	public void onJoin(final PlayerJoinEvent e) {
-		if (/* Bukkit.getVersion().contains("1.8") || */ Bukkit.getVersion().contains("1.7")) {
+		    if (version.startsWith("1.7") || version.startsWith("1.8")) {
 			Bukkit.broadcastMessage(
 					QAMain.prefix + " QualityArmory does not support versions older than 1.9, and may crash clients");
 			Bukkit.broadcastMessage(
